@@ -1,0 +1,127 @@
+body {
+    background-image: url(pink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Kanit', sans-serif;
+}
+legend {
+    text-align: center;
+    font-size: 30px;
+}
+label {
+    font-weight: 700;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+#decision {
+    margin-top: 20px;
+}
+legend {
+    font-weight: 700;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=file] {
+    font-family: 'Kanit', sans-serif;
+}
+fieldset.form {
+    border: transparent;
+    border-radius: 20px;
+    background-color: #feefff;
+    width: 50%;
+}
+input[type=submit] {
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+select{
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=date]{
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=number]{
+    padding: 5px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+input[type=submit]:hover{
+    transition: 0.5s all;
+    border: 1px solid #4CAF50;
+    background-color: transparent;
+    color: #4CAF50;
+}
+i{
+    color: rgb(151, 144, 144);
+}

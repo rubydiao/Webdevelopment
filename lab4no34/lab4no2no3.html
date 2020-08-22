@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+    <title>lab4</title>
+    <link rel="stylesheet" href="lab4no2no3.css">
+</head>
+
+<body>
+    <h1>แบบฟอร์มจองทัวร์</h1>
+    <div align="center">
+        <form action="" method="post">
+            <fieldset class="form" align="left">
+                <legend>ข้อมูลทั่วไป</legend>
+                <label for="">ชื่อ-สกุล:</label>
+                <input type="text" placeholder="กรอกชื่อ-สกุล" name="name" pattern="[ก-๙]{1,}\s{1,}[ก-๙]{1,}" autofocus required>
+                <br>
+                <label for="">Email:</label>
+                <br>
+                <input type="email" name="email" placeholder="example@gmail.com" required>
+                <br>
+                <label for="">โทรศัพท์:</label>
+                <input type="tel" value="+66" name="tel" pattern="[\W,0-9]{12}" required>
+                <br>
+                <label for="">ที่อยู่:</label><br>
+                <textarea name="address" id="" cols="30" rows="10" required></textarea>
+                <br>
+                <div align="center">
+                    <label for="">รหัสไปรษณีย์:</label>
+                    <input type="text" name="postcode" pattern="[0-9]{5}" placeholder="xxxxx" style="width: 200px;" required>
+                    <br>
+                    <label for="">รูปผู้จอง</label>
+                    <input type="file" name="picture">
+                    <br><br>
+                </div>
+
+            </fieldset>
+            <fieldset class="form" align="center">
+                <legend>ข้อมูลเข้าสู่ระบบ</legend>
+                <label for="">Username:</label>
+                <input type="text" name="username" required style="width: 300px;">
+                <br>
+                <i>ประกอบด้วยตัวเลข ตัวอักษร หรือ_ตั้งแต่ 8 ตัวขึ้นไป</i>
+                <br><br>
+                <label for="">Password:</label>
+                <input type="password" name="password" minlength="8" required style="width: 300px;">
+                <br>
+                <i>ประกอบด้วยตัวอักขระใดก็ได้ ตั้งแต่ 8 ตัวขึ้นไป</i>
+                <br><br>
+            </fieldset>
+            <fieldset class="form" align="center">
+                <legend>ข้อมูลทัวร์ที่ต้องการ</legend>
+                <label for="">แพคเก็จทัวร์:</label>
+                <select name="package" id="" required>
+                    <option value="" disabled selected>--select--</option>
+                    <option value="จีน">จีน</option>
+                    <option value="เกาหลี">เกาหลี</option>
+                    <option value="ญี่ปุ่น">ญี่ปุ่น</option>
+                    <option value="อินเดีย">อินเดีย</option>
+                    <option value="อิตาลี">อิตาลี</option>
+                </select>
+                <br>
+                <label for="">วันที่เดินทาง:</label>
+                <input type="date" name="date" id="">
+                <br>
+                <label for="">จำนวนผู้เดินทาง:</label>
+                <input type="number" min="1" max="10" style="width: 100px;">
+                <br>
+                <label for="">เน้นการท่องเที่ยวแบบใด?</label>
+                <br>
+                <input type="checkbox" name="shopping" id="">
+                <label for="">ชอปปิ้ง</label>
+                <br>
+                <input type="checkbox" name="nature" id="">
+                <label for="">ธรรมชาติ</label>
+                <br>
+                <input type="checkbox" name="sea" id="">
+                <label for="">ทะเล</label>
+                <br>
+            </fieldset>
+            <div id="decision" align="center">
+                <label>ยอมรับเงื่อนไขและข้อตกลง</label>
+                <input type="radio" id="" name="check" value="agree" checked>
+                <label for="">I agree</label>
+                <input type="radio" id="" name="check" value="disagree">
+                <label for="">I disagree</label><br>
+                <input type="submit" value="จอง">
+            </div id="des">
+        </form>
+    </div>
+</body>
+
+</html>
