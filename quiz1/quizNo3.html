@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        input:valid{
+            outline-color: blue;
+        }
+        input:invalid{
+            outline-color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="">ชื่อภาษาไทย:</label>
+        <input type="text" pattern="[\u0E01-\u0e50]{2,12}" required>
+        <br><br>
+        <label for="">THตามด้วยเลข5หลักหรือthตามด้วยเลข5หลัก</label>
+        <input type="text" pattern="(TH|th)[0-9]{5}" required>
+    </form>
+</body>
+</html>
