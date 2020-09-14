@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        table{
+            border: 1px solid black;
+
+        }
+        th,tr,td{
+             border-collapse: collapse;
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        function addtext(){
+            let c1 = document.getElementById("b1").value;
+            let c2 = document.getElementById("b2").value;
+            let c3 = document.getElementById("b3").value;
+            let table = document.getElementById("temp");
+            let row = table.insertRow();
+            let cell1 = row.insertCell(0);
+            let cell2 = row.insertCell(1);
+            let cell3 = row.insertCell(2);
+            cell1.innerHTML = c1;
+            cell2.innerHTML = c2;
+            cell3.innerHTML = c3;
+        }
+    </script>
+</head>
+<body>
+    <label for="">ชื่อลูกค้า</label>
+    <input type="text" id="b1" required>
+    <br>
+    <label for="">ที่อยู่</label>
+    <input type="text" id="b2" required>
+    <br>
+    <label for="">โทรศัพท์</label>
+    <input type="text" id="b3" required>
+    <br>
+    <input type="button" value="เพิ่ม" onclick="addtext()">
+    <table id="temp">
+        <tr>
+            <th>ชื่อลูกค้า</th>
+            <th>ที่อยู่</th>
+            <th>โทรศัพท์</th>
+        </tr>
+    </table>
+</body>
+</html>

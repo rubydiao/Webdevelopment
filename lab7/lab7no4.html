@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+        function countTheWord(str){
+            let s = str.split(' ');
+            let count = 0;
+            s.forEach(result => {
+                if(result === 'the' || result === 'The'){
+                    count++;
+                }
+            });
+            alert("มี The ทั้งหมด "+count+" คำ");
+        }
+    </script>
+</head>
+<body>
+    The eighth ruler of the Fifth Dynasty in the late 25th century<br><br>
+    <a href="#" onclick="countTheWord('The eighth ruler of the Fifth Dynasty in the late 25th century')">Click for count 'the'</a>
+</body>
+</html>

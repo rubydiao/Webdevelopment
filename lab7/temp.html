@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+            function finds(){
+                var s1 = document.getElementById("num1");
+                var s2 = document.getElementById("num2");
+                var sum = parseInt(s1.value) + parseInt(s2.value);
+                var dis = document.createElement("h1");
+                dis.innerHTML = sum;
+                var d = document.getElementById("temp");
+                d.appendChild(dis);
+            }
+        </script>
+</head>
+<body>
+    <input type="number" id="num1">
+    <br>
+    <input type="number" id="num2">
+    <br>
+    <input type="button" value="กด" onclick="finds()">
+    <!-- <br>
+    <input type="text" id="numsum">
+     -->
+     <h1 style="color: green" id="temp"></h1>
+</body>
+</html>
