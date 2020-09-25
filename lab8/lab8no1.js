@@ -64,7 +64,7 @@ async function covid() {
     li.appendChild(ul);
     result.appendChild(li)
     let si = document.createElement('li')
-    si.innerHTML = thmonth[(parseInt(dshow[1]) - 1)] + " " + (parseInt(dshow[2]) + 543) + " (รวม " + (parseInt(c2[0]) + parseInt(c2[1]) + parseInt(c2[2]) + parseInt(c2[3])) + " คน)";
+    si.innerHTML = thmonth[(parseInt(dshow[1]) - 2)] + " " + (parseInt(dshow[2]) + 543) + " (รวม " + (parseInt(c2[0]) + parseInt(c2[1]) + parseInt(c2[2]) + parseInt(c2[3])) + " คน)";
     let sl = document.createElement('ul')
     let s1 = document.createElement('li')
     s1.innerHTML = "อายุ 1-20 จำนวน " + c2[0] + " คน";
