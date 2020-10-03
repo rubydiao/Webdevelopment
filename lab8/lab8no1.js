@@ -54,7 +54,7 @@ async function covid() {
     f2.style.listStyleType = 'disc'
     ul.appendChild(f2);
     let f3 = document.createElement('li')
-    f3.innerHTML = "อายุ 21-40 จำนวน " + c1[2] + " คน";
+    f3.innerHTML = "อายุ 41-60 จำนวน " + c1[2] + " คน";
     f3.style.listStyleType = 'disc'
     ul.appendChild(f3);
     let f4 = document.createElement('li')
@@ -75,7 +75,7 @@ async function covid() {
     s2.style.listStyleType = 'disc'
     sl.appendChild(s2);
     let s3 = document.createElement('li')
-    s3.innerHTML = "อายุ 21-40 จำนวน " + c2[2] + " คน";
+    s3.innerHTML = "อายุ 41-60 จำนวน " + c2[2] + " คน";
     s3.style.listStyleType = 'disc'
     sl.appendChild(s3);
     let s4 = document.createElement('li')

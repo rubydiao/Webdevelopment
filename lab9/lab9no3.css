@@ -1,0 +1,79 @@
+header{
+    background-color: #4c6baf;
+    border: 10px solid black;
+    color: white;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 3px solid black;
+}
+td{
+    text-align: center;
+}
+
+th{
+    background-color: #4c6baf;
+    color: white;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+#total{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #4c6baf;
+    border: 10px solid black;
+}
+#navbar a {
+    text-align: center;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+#navbar a:hover {
+    transition: 0.7s all;
+    background-color: #ddd;
+    color: black;
+}
+  
+#navbar a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+a#top{
+    bottom: 0;
+    position: fixed;
+    background-color: #4c6baf;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+#choose{
+    text-decoration: none;
+    color: black;
+}
+a#return{
+    position: fixed;
+    background-color: #4c6baf;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
