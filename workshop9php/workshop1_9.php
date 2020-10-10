@@ -4,6 +4,7 @@
 <style>
     table,th,td{
         border:1px solid black;
+        border-radius: 1px;
     }
 </style>
 </head>
