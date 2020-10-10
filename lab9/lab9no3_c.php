@@ -75,6 +75,7 @@
                 <td><?php echo $age3; ?></td>
                 <td><?php echo $age4; ?></td>
                 <td id="total"><?php echo $age1 + $age2 + $age3 + $age4." คน"; ?></td>
+            </tr>
             <?php
         }
             ?>
